@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    protected int sum(int n1, int n2) {
+    public int sum(int n1, int n2) {
         return n1 + n2;
     }
 
