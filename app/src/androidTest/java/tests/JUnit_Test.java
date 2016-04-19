@@ -24,14 +24,14 @@ public class JUnit_Test extends ActivityInstrumentationTestCase2{
 
         int result;
         result = mainActivity.sum(1,2);
-        assertEquals(3, result);
+        assertEquals(-1, result);
         result = mainActivity.sum(-1,-2);
-        assertEquals(-3, result);
+        assertEquals(1, result);
 
         result = mainActivity.sum(-1,2);
-        assertEquals(1, result);
+        assertEquals(-3, result);
         result = mainActivity.sum(1,-2);
-        assertEquals(-1, result);
+        assertEquals(3, result);
 
         result = mainActivity.sum(0,0);
         assertEquals(0, result);
